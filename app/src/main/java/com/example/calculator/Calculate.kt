@@ -96,6 +96,7 @@ class Calculate : AppCompatActivity() {
                             Оperation.division -> if (num2 != 0.0) result = num1!! / num2!! else {
                                 val toast = Toast.makeText(applicationContext, "Ошибка: деление на 0", Toast.LENGTH_SHORT)
                                 toast.show()
+                                Result?.setText("")
                             }
                         }
                         if (result != null)
