@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:onClick="onClickCalculate"
         android:text="Вычислить"
         app:layout_constraintEnd_toEndOf="@+id/Sign"
         app:layout_constraintStart_toStartOf="@+id/Sign"
@@ -63,28 +64,36 @@
             android:id="@+id/Plus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:text="+" />
 
         <Button
             android:id="@+id/Minus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:text="-" />
 
         <Button
             android:id="@+id/Multiplication"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:text="*" />
 
         <Button
             android:id="@+id/Division"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:layout_weight="1"
+            android:onClick="onClick"
             android:text="/" />
     </LinearLayout>
 
